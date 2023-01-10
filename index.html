@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Basic HTML</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <main>
+    <nav class="navBar">
+      <h1><b>PIYUSH NEGI PORTFOLIO</b></h1>
+      <div class="navigationmenu">
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">Skills I Got</a>
+        <a href="#projects">Project</a>
+        <a href="#aechivement">Aechivements</a>
+        <a href="#contactForm">Lets Connect</a>
+      </div>
+    </nav>
+    <section class="herosection">
+      <img class="profileImage" src="Images/man-shows-gesture-great-idea_10045-637.webp">
+
+      <div class="herosectionDetails">
+        <h1>PIYUSH NEGI</h1>
+        <h3>STUDENT AT DIT UNIVERSITY</h3>
+      </div>
+    </section>
+    <section class="AboutMe" id="#aboutMe">
+      <h1>ME AND MYSELF </h1>
+      <p>
+        Hello Everyone My name is Piyush Negi. Currently I am Pursuing B-Tech in computer science and engineering from
+        DIT University Dehradun.
+        I am fresher and now Currently I am looking ForFreelance Jobs . I have a Greate Knowledge of computer
+        programming as well as creative softwares
+        like Adobe Photoshop , Adobe After Effects, Filmora And Many More . I am looking for
+        a job in the field of software development where I can give my 100% best to arise the level of company As Well
+        As
+        My Country. Currently My dream company is TCS Because TCS provides Us a vast no of opportunites For Our Future
+        and
+        Helps Us to Grow .
+      </p>
+    </section>
+    <section class="skillsAndprojects">
+      <div class="skills" id="skills">
+        <h1 class="cardHeading">Skills</h1>
+        <img src="Images/html.svg" title="HTML">
+        <img src="Images/cc.svg" title="C++">
+        <img src="Images/python.svg" title="Python">
+        <img src="Images/mysql.svg" title="Mysql">
+        <img src="Images/After effect.svg" title="AfterEffect">
+        <img src="Images/Photoshop.svg" title="Adobe Photoshop">
+        <img src="Images/c.svg" title="C">
+      </div>
+      <div class="projects" id="projects">
+        <h1 class="cardHeading"> Projects</h1>
+        <div class="Projectcontainer">
+          <img src="Images/After effect.svg">
+          <div class="projectdescription">
+            <h4>Editior</h4>
+            <p> Worked As a Editor For Many Content Creators
+            </p>
+          </div>
+        </div>
+
+        <div class="projects" id="projects">
+          <div class="Projectcontainer">
+            <img src="Images/html.svg">
+            <div class="projectdescription">
+              <h4>Hotstar Clone</h4>
+              <p>Disney Plus Hotstar clone using HTML And CSS
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="Aechive">
+      <div class="aechivement" id="aechivement">
+        <h1 class="cardHeading"> Aechivements</h1>
+        <div class="aechivement">
+          <img src="Images/game.svg" title="Gamer">
+          <div class="aechivement">
+            <h4>GAMER</h4>
+
+          </div>
+        </div>
+
+        <div class="aechivement" id="aechivement">
+          <div class="aechivement">
+            <img src="Images/Photoshop.svg" title="Adobe Photoshop">
+            <div class="aechivement">
+              <h4>EDITOR</h4>
+
+            </div>
+          </div>
+    </section>
+
+
+    <section class="contactForm" id="contactForm">
+      <h1>Let's Connect! </h1>
+      <div class="formGroup">
+        <label for="name">Enter Full Name</label><br />
+        <input type="text" id="name" placeholder="Full Name" />
+      </div>
+      <div class="formGroup">
+        <label for="Email">Email</label><br />
+        <input type="text" id="name" placeholder="Email" />
+      </div>
+      <div class="formGroup">
+        <label for="Message"> Message</label><br />
+        <textarea placeholder="Send Your Message" id="message" name="w3review" rows="5" cols="70"></textarea>
+      </div>
+      <button class="SubmitButton" onclick={submit()}>Connect</button>
+    </section>
+  </main>
+</body>
+
+</html>
